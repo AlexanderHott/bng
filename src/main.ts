@@ -66,6 +66,7 @@ function main() {
   const url = getRedirectUrl();
   if (url) {
     window.location.replace(url);
+    return;
   }
   defaultPage();
 }
