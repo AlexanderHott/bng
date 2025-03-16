@@ -1,5 +1,5 @@
-import { bangs } from "./bangs";
 import "./style.css";
+import { bangs } from "./bangs";
 
 const DEFAULT_BANG = "brave" satisfies (typeof bangs)[number]["t"];
 
@@ -49,7 +49,7 @@ function getRedirectUrl() {
     return;
   }
 
-  const searchUrl = selectedBang.u.replace("{{{s}}}", original);
+  const searchUrl = selectedBang.u.replace("{{{s}}}", encodeURIComponent(original));
   return searchUrl;
 }
 

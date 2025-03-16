@@ -29,6 +29,15 @@ export const bangs = [
     t: "cl",
     u: "https://claude.ai/new?q={{{s}}}",
   },
+    {
+    c: "Perplexity",
+    d: "www.perplexity.ai",
+    r: 0,
+    s: "Perplexity",
+    sc: "AI",
+    t: "pplx",
+    u: "https://www.perplexity.ai/search?s=o&q={{{s}}}",
+  },
   {
     c: "Tech",
     d: "www.01net.com",
@@ -118849,15 +118858,6 @@ export const bangs = [
     sc: "Search",
     t: "wwtr",
     u: "http://www.wikiwand.com/tr/{{{s}}}",
-  },
-  {
-    c: "Multimedia",
-    d: "www.89porno.com",
-    r: 20,
-    s: "Porno \u0130zle",
-    sc: "Video",
-    t: "www.89porno.com",
-    u: "http://www.89porno.com/?s={{{s}}}",
   },
   {
     c: "Research",
